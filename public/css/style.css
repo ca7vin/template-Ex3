@@ -17260,6 +17260,9 @@ readers do not read off random characters that represent icons */
   font-family: "Satisfy";
   font-size: 72px;
 }
+* header span {
+  letter-spacing: 2px;
+}
 * header .banner {
   height: calc(90vh - 50px);
 }
