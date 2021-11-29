@@ -17240,4 +17240,28 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+* {
+  font-family: "Outfit";
+}
+* header {
+  background-image: url("../../public/img/hero-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  background-color: #383838;
+  background-blend-mode: multiply;
+  height: 100vh;
+}
+* header .nav-item {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+* header h1, * header .h1 {
+  font-family: "Satisfy";
+  font-size: 72px;
+}
+* header .banner {
+  height: calc(90vh - 50px);
+}
+
 /*# sourceMappingURL=style.css.map */
