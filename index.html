@@ -290,15 +290,25 @@
                 <div class="col-6">
                     <div class="container shadow d-flex flex-column align-items-center justify-content-center py-5 m-2">
                         <div class="border-icon">
-                            <i class="fas fa-share-alt text-warning"><a href=""></a></i>
+                            <i class="fas fa-share-alt text-warning fs-4"><a href=""></a></i>
                         </div>
                         <h4 class="py-3 fw-bold">Social Profiles</h4>
                         <div class="social-icons d-flex justify-content-center align-items-center">
-                            <i class="icon-social fab fa-facebook mx-3 text-black fs-5"><a href=""></a></i>
-                            <i class="icon-social fab fa-twitter mx-3 text-black fs-5"><a href=""></a></i>
-                            <i class="icon-social fab fa-instagram mx-3 text-black fs-5"><a href=""></a></i>
-                            <i class="icon-social fab fa-skype mx-3 text-black fs-5"><a href=""></a></i>
-                            <i class="icon-social fab fa-linkedin mx-3 text-black fs-5"><a href=""></a></i>
+                            <div class="icon-social">
+                                <i class="fs-5 fab fa-facebook mx-3 text-secondary fs-5"><a href=""></a></i>
+                            </div>
+                            <div class="icon-social">
+                                <i class="fs-5 fab fa-twitter mx-3 text-secondary fs-5"><a href=""></a></i>
+                            </div>
+                            <div class="icon-social">
+                                <i class="fs-5 fab fa-instagram mx-3 text-secondary fs-5"><a href=""></a></i>
+                            </div>
+                            <div class="icon-social">
+                                <i class="fs-5 fab fa-skype mx-3 text-secondary fs-5"><a href=""></a></i>
+                            </div>
+                            <div class="icon-social">
+                                <i class="fs-5 fab fa-linkedin mx-3 text-secondary fs-5"><a href=""></a></i>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
@@ -329,12 +339,12 @@
                         class="container shadow d-flex flex-column align-items-between justify-content-around h-100  m-2">
                         <div class="row">
                             <div class="col-12 d-flex">
+                                <label for="exampleFormControlInput1" class="visually-hidden">Name</label>
+                                <input type="text" class="form-control w-50" id="exampleFormControlInput1"
+                                    placeholder="Your name">
                                 <label for="exampleFormControlInput1" class="visually-hidden">Email address</label>
                                 <input type="email" class="form-control w-50" id="exampleFormControlInput1"
-                                    placeholder="name@example.com">
-                                <label for="exampleFormControlInput1" class="visually-hidden">Email address</label>
-                                <input type="email" class="form-control w-50" id="exampleFormControlInput1"
-                                    placeholder="name@example.com">
+                                    placeholder="Your Email">
                             </div>
                         </div>
 
@@ -342,16 +352,16 @@
                             <div class="col-12">
                                 <label for="exampleFormControlInput1" class="visually-hidden">Email address</label>
                                 <input type="email" class="form-control w-100" id="exampleFormControlInput1"
-                                    placeholder="name@example.com">
+                                    placeholder="Subject">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-12">
-                                <textarea class="w-100 p-0" name="" id="" cols="30" rows="10"
+                                <textarea class="w-100" name="" id="" cols="30" rows="10"
                                     placeholder="Message"></textarea>
                             </div>
                             <div class="col-12 d-flex flex-column align-items-center justify-content-center">
-                                <button type="submit" class="btn btn-warning mt-3"><a
+                                <button type="submit" class="btn btn-warning my-3"><a
                                         class="text-white text-decoration-none" href="">Send message</a></button>
                             </div>
                         </div>
@@ -392,6 +402,11 @@
                                 href="">BootstrapMade</a></span>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="container-fluid d-flex flex-column align-items-end justify-content-end">
+            <div class="btn-footer">
+                <button type="button" class="btn btn-warning"><a class="text-white text-decoration-none" href=""><i class="fas fa-arrow-up"></i></a></button>
             </div>
         </div>
     </footer>

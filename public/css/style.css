@@ -17297,9 +17297,14 @@ readers do not read off random characters that represent icons */
   padding: 20px;
 }
 * .icon-social {
-  border: 0.5px solid black;
-  padding: 8px;
+  border: 0.1rem solid #cccccc;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
 }
 * footer {
   background-image: url("../../public/img/footer-bg.jpg");
@@ -17307,7 +17312,8 @@ readers do not read off random characters that represent icons */
   background-size: cover;
   background-color: #383838;
   background-blend-mode: multiply;
-  padding: 10% 0;
+  padding-top: 5%;
+  padding-bottom: 1%;
 }
 * .titre-footer {
   font-family: "Satisfy";
