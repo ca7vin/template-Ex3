@@ -17286,8 +17286,12 @@ readers do not read off random characters that represent icons */
   height: 50vh;
 }
 * .contactMe input {
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 20px;
+}
+* .contactMe textarea {
+  margin: 5px;
+  padding: 20px;
 }
 * .icon-social {
   border: 0.5px solid black;
