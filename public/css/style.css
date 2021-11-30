@@ -17331,4 +17331,18 @@ readers do not read off random characters that represent icons */
   border-radius: 50%;
 }
 
+header {
+  background-position: right;
+}
+header .banner h1, header .banner .h1 {
+  font-size: 36px !important;
+}
+header .banner span {
+  font-size: 12px !important;
+}
+
+.about-pic {
+  padding-bottom: 50px !important;
+}
+
 /*# sourceMappingURL=style.css.map */
